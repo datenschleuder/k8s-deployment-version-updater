@@ -1,0 +1,39 @@
+{
+  "name": "@datenschleuder/k8s-deployment-version-updater",
+  "version": "1.0.1",
+  "private": false,
+  "description": "The K8s Deployment Image Version Updater can update a repository image uri and the pod label appVersion in kubernetes deployment yaml file.",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/datenschleuder/k8s-deployment-version-updater.git"
+  },
+  "keywords": [
+    "k8s",
+    "kubernetes",
+    "deployment",
+    "standard-version",
+    "updater",
+    "plugin"
+  ],
+  "author": "Juergen Meier",
+  "license": "None",
+  "bugs": {
+    "url": "https://github.com/datenschleuder/k8s-deployment-version-updater/issues"
+  },
+  "homepage": "https://github.com/datenschleuder/k8s-deployment-version-updater",
+  "scripts": {
+    "release": "standard-version"
+  },
+  "peerDependencies": {
+    "standard-version": "^9.5.0"
+  },
+  "dependencies": {
+    "standard-version": "^9.5.0",
+    "yaml": "^1.10.2",
+    "yarn": "^2.4.3"
+  }
+}
